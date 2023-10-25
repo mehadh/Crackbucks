@@ -1,5 +1,5 @@
 # Crackbucks
-This is a project demonstrating how improperly secured phone lines can be easily exploited by malicious actors. 
+AUTOMATED HOTLINE CHECKER. This is a project demonstrating how improperly secured phone lines can be easily exploited by malicious actors. 
 
 ## When?
 In the summer of 2021, I created this tool from scratch in order to both build my Node.js skills and to prove the existence of this vulnerability in a specific company's hotline. After its final version was created and the vulnerability was reported, they added an additional security feature to the phone line by requiring the PIN of the balance being checked within two weeks of the report. This successfully thwarted most malicious actors as this hotline was prime for those who intended on stealing the company's giftcards that they did not have rightful access to, usually meaning that they lacked the PIN. However, the company has now removed the automated call-based balance checker, instead opting for users to sign onto their mobile app instead. As a result, I am now releasing this in hopes that perhaps others can learn from this. 
